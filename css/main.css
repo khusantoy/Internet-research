@@ -51,6 +51,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin-top: 50px;
+    transition: all 0.3s;
 }
 
 .box-two {
@@ -63,4 +64,97 @@ body {
 
 .box-two img {
     width: 300px;
+}
+
+/* effects */
+
+.box-one button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* our feature  */
+
+.feature {
+    height:580px ;
+}
+
+.feature > p {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 70px 0;
+    color: #4a627c;
+}
+
+.l-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.t-container {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    width: 23%;
+    height: 350px;
+    transition: all 0.3s;
+}
+
+.card:nth-child(1) {
+    background-color: #ff6571;
+}
+
+.card:nth-child(2) {
+    background-color: #ffcc00;
+}
+
+.card:nth-child(3) {
+    background-color: #21a5e5;
+}
+
+.card:nth-child(4) {
+    background-color: #f3eae3;
+}
+
+.card img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #344456;
+}
+
+.d-text {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 20px;
+    color: #0b5f8b;
+}
+
+.card a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a5076;
+    text-decoration: none;
+}
+
+/* effects  */
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card a:hover {
+    color: #0b5f8b;
 }
