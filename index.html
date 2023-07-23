@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- animation library  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <!-- get-started  -->
@@ -32,7 +35,7 @@
         <p>Our Features</p>
         <div class="cards">
             <div class="l-container">
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="t-container">
                         <img src="./images/coin.png" alt="coin">
                         <p class="title">Marketing</p>
@@ -40,7 +43,7 @@
                         <a href="#">Read more</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="t-container">
                         <img src="./images/palette.png" alt="palette">
                         <p class="title">Design</p>
@@ -48,7 +51,7 @@
                         <a href="#">Read more</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="t-container">
                         <img src="./images/gallery.png" alt="palette">
                         <p class="title">Research</p>
@@ -56,7 +59,7 @@
                         <a href="#">Read more</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="t-container">
                         <img src="./images/rocket.png" alt="rocket">
                         <p class="title">Branding</p>
@@ -70,14 +73,14 @@
     <!-- explore -->
     <section class="explore">
         <div>
-            <p>
+            <p data-aos="fade-down-right">
                 Explore the research we've done for our great clients. <br> <a href="#">View now.</a>
             </p>
         </div>
     </section>
     <!-- branding  -->
     <section class="branding">
-        <div class="container">
+        <div class="container" data-aos="fade-down-left">
             <div class="gallery_img">
                 <img src="./images/gallery2.png" alt="branding_gallery">
             </div>
@@ -89,5 +92,9 @@
             </div>
         </div>
     </section>
+    <!-- AOS acript  -->
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
