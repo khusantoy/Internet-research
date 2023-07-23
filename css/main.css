@@ -158,3 +158,81 @@ body {
 .card a:hover {
     color: #0b5f8b;
 }
+
+/* explore  */
+
+.explore {
+    height:300px ;
+    background-color: #082c4e;
+}
+
+.explore div {
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.explore div p {
+    font-size: 40px;
+    color: #fff;
+}
+
+.explore div p > a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* branding  */
+
+.branding {
+    height:400px ;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery_img img {
+    width: 150px;
+    transition: all 0.3s;
+}
+
+.gallery_img img:hover {
+    transform: scale(1.1);
+}
+
+.branding-text {
+    width: 70%;
+}
+
+.branding-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.branding-desc {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 23px;
+    color: #344456;
+}
+
+.view-text {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #1e2935;
+}
+
+.view-link {
+    font-size: 18px;
+    color: dodgerblue;
+    text-decoration: none;
+}
